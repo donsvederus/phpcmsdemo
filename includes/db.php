@@ -16,11 +16,12 @@ define(strtoupper($key), $value);
 $connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
 // this is just to test the connection
+/* 
 if($connection){
     echo "we are connected";
 } else {
     echo " we are not connecting";
 }
-
+*/
 
 ?>
